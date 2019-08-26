@@ -1,0 +1,111 @@
+@import "vars"
+
+.container
+	&-header
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: row
+		justify-content: space-around
+		background: $dark
+		height: 80px
+	&-footer
+		position: absolute
+		width: 100%
+		bottom: 0
+.header
+	&-wrap
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: row
+		justify-content: center
+		align-items: center
+	&__ul
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: row
+		width: 100%
+		justify-content: flex-start
+		li
+			color: white
+			font-weight: bold
+			font-size: 14px
+			&:hover
+				text-decoration: none
+		a
+			margin-right: 7%
+			display: inline-block
+			position: relative
+			text-decoration: none
+			&:hover
+				text-decoration: none
+				&::after
+					content: ""
+					display: block
+					position: absolute
+					height: 2px
+					width: 100%
+					background-color: white
+					transition: width .5s ease-in-out
+				&::before
+					display: block
+					position: absolute
+					content: ""
+					width: 100%
+					left: 0
+					background-color: red
+					left: 50%
+					bottom: 0
+					transition: width .5s ease-in-out, left .5s ease-in-out
+
+	&-menu
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: flex-start
+		align-items: center
+	&-logo
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: center
+		align-items: center
+	&__logo
+		color: white
+		text-align: center
+		line-height: 1.2
+		font-weight: bold
+	&-social
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: row
+		justify-content: space-around
+		align-items: center
+
+.row
+	width: 100%
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	flex-direction: row
+	justify-content: center
+
+main
+	height: 100vh

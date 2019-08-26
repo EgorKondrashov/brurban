@@ -1,0 +1,6 @@
+npm i
+
+nmp i gulp -g
+
+npm install gulp-npm-dist --save-dev
+#Для установки gulp-dist
