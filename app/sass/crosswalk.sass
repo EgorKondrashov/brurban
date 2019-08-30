@@ -1,0 +1,174 @@
+@import "vars"
+
+.main-crosswalk
+	width: 100%
+	height: 91.5vh
+	top: 0
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: center
+	align-items: flex-end
+
+.container-crosswalk
+	position: absolute
+
+.situation-block
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	flex-direction: column
+
+.btn
+	&-filter
+		width: 100%
+		height: 46px
+		background: $dark
+		color: white
+		font-size: 16px
+		border: none
+		font-weight: bold
+		&:hover
+			background: darken($dark,5%)
+	&-vk
+		width: 100%
+		height: 45px
+		font-size: 14px
+		border-radius: .25rem
+		border: none
+	&-vk-disable
+		background-color: #CBCFD4 !important
+		color: white
+		&:focus
+			outline: none
+		&:hover
+			cursor: pointer
+	&-p
+		margin-bottom: 5%
+		z-index: 1
+
+.btn-filter.btn-primary:focus
+	box-shadow: 0 0 0 0.2rem rgba(48, 54, 61, .5)
+	border: none
+.btn-filter.btn:active 
+  color: #fff
+  background-color: darken($dark,10%) !important
+  box-shadow: 0 0 0 0.2rem rgba(48, 54, 61, .5) !important
+  border: none
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before
+ 	background: $dark
+ 	transition: background .4s
+
+.collapse
+	box-shadow: 0 24px 35px -25px rgba(0,0,0,.5), 0 0 10px rgba(0,0,0,.1)
+	border-radius: 4px
+
+.move
+	width: 100%
+	padding: 5% 0
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	flex-direction: column
+	&-item
+		font-size: 14px
+		color: $dark
+		height: 55px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+		padding-left: 5%
+		&:hover
+			background: $grey
+			cursor: pointer
+.item-bold
+	font-weight: bold
+
+
+.control
+	&-block
+		padding: 0
+		height: 55px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		align-items: center
+		&:hover
+			background: $grey
+			cursor: pointer
+		label
+		 	font-size: 14px
+		 	color: $grey-a
+		 	font-weight: normal
+		 	line-height: 1.5
+		 	display: -webkit-flex
+		 	display: -moz-flex
+		 	display: -ms-flex
+		 	display: -o-flex
+		 	display: flex
+		 	flex-direction: row-reverse
+		 	justify-content: flex-end
+		 	align-items: center
+		 	text-align: left
+		 	&:before,
+		 		right: 0
+		 		left: 90%
+		 		top: 33%
+		 		background: none
+		 		border: 2px solid $grey-b
+		 	&:after
+		 		top: 33%
+		 		right: 0
+		 		left: 90%
+		 	span
+		 		width: 170px
+		 		display: block
+		 		user-select: none
+		 	&:hover
+		 		cursor: pointer
+
+
+
+.img-wraper
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 40px
+	user-select: none
+
+#collapse-situation,#collapse-know,#collapse-help
+	position: absolute
+	bottom: 130%
+	z-index: 0
+	width: 90%
+	box-sizing: border-box
+
+.custom-control-label
+	height: 100%
+	width: 100%
+
+.know-block
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	flex-direction: column-reverse
