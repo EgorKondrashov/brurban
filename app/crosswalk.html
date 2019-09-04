@@ -11,17 +11,19 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
+
     <!-- Template Basic Images Start -->
     <meta property="og:image" content="path/to/image.jpg">
     <link rel="icon" href="img/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
     <!-- Template Basic Images End -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Custom Browsers Color Start -->
     <meta name="theme-color" content="#000">
     <!-- Custom Browsers Color End -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap&subset=cyrillic"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css">
 
 </head>
@@ -34,10 +36,18 @@
                 <div class="row">
                     <div class="header-menu col-xl-5">
                         <ul class="header__ul">
-                            <a href="index.html"><li>Сервисы</li></a>
-                            <a href="knowledge.html"><li>База знаний</li></a>
-                            <a href="about.html"><li>О нас</li></a>
-                            <a href="help.html"><li>Помочь</li></a>
+                            <a href="index.html">
+                                <li>Сервисы</li>
+                            </a>
+                            <a href="knowledge.html">
+                                <li>База знаний</li>
+                            </a>
+                            <a href="about.html">
+                                <li>О нас</li>
+                            </a>
+                            <a href="help.html">
+                                <li>Помочь</li>
+                            </a>
                         </ul>
                     </div>
                     <div class="header-logo col-xl-2">
@@ -45,10 +55,12 @@
                     </div>
                     <div class="header-social col-xl-2 offset-lg-3">
                         <div class="header__telegram">
-                            <a href="https://vk.com/designbry"><img src="img/header/vk.svg" alt="https://vk.com/designbry"></a>
+                            <a href="https://vk.com/designbry"><img src="img/header/vk.svg"
+                                    alt="https://vk.com/designbry"></a>
                         </div>
                         <div class="header__vk">
-                            <a href="https://t.me/brurbanhelp"><img src="img/header/telegram.svg" alt="https://t.me/brurbanhelp"></a>
+                            <a href="https://t.me/brurbanhelp"><img src="img/header/telegram.svg"
+                                    alt="https://t.me/brurbanhelp"></a>
                         </div>
                     </div>
                 </div>
@@ -64,111 +76,116 @@
                         <img src="img/crosswalk/vk.svg" alt="vk">
                     </button>
                 </div>
-        
+
                 <div class="col-lg-3 situation-block">
                     <p class="btn-p">
-                      <button class="btn btn-primary btn-situation btn-filter" type="button" data-toggle="collapse" data-target="#collapse-situation" aria-expanded="false" aria-controls="collapse-situation">
-                        <img src="img/crosswalk/filter.svg" alt="">
-                        Ситуация
-                      </button>
+                        <button class="btn btn-primary btn-situation btn-filter" type="button" data-toggle="collapse"
+                            data-target="#collapse-situation" aria-expanded="false" aria-controls="collapse-situation">
+                            <img src="img/crosswalk/filter.svg" alt="">
+                            Ситуация
+                        </button>
                     </p>
                     <div class="collapse" id="collapse-situation">
-                      <div class="move move-body">
-                        <!-- Нужен пешеходный переход !-->
-                        <div class="custom-control control-block custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck1">
-                            <label class="custom-control-label" for="customCheck1">
-                                <span>Нужен пешеходный переход</span>
-                                <div class="img-wraper">
-                                    <img class="control__img" src="img/crosswalk/filter/crosswalk.svg" alt="need_crosswalk">
-                                </div>
-                            </label>
+                        <div class="move move-body">
+                            <!-- Нужен пешеходный переход !-->
+                            <div class="custom-control control-block custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">
+                                    <span>Нужен пешеходный переход</span>
+                                    <div class="img-wraper">
+                                        <img class="control__img" src="img/crosswalk/filter/crosswalk.svg"
+                                            alt="need_crosswalk">
+                                    </div>
+                                </label>
+                            </div>
+                            <!-- Перекрыли пешеходный переход !-->
+                            <div class="custom-control control-block custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                <label class="custom-control-label" for="customCheck2">
+                                    <span>Перекрыли удобный переход</span>
+                                    <div class="img-wraper">
+                                        <img class="control__img" src="img/crosswalk/filter/fence.svg"
+                                            alt="block_crosswalk">
+                                    </div>
+                                </label>
+                            </div>
+                            <!-- Нужен светофор !-->
+                            <div class="custom-control control-block custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                <label class="custom-control-label" for="customCheck3">
+                                    <span>Нужен светофор</span>
+                                    <div class="img-wraper">
+                                        <img class="control__img" src="img/crosswalk/filter/svt.svg" alt="need_trafic">
+                                    </div>
+                                </label>
+                            </div>
+                            <!-- Разное !-->
+                            <div class="custom-control control-block custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                <label class="custom-control-label" for="customCheck4">
+                                    <span>Разное</span>
+                                    <div class="img-wraper">
+                                        <img class="control__img" src="img/crosswalk/filter/other.svg" alt="other">
+                                    </div>
+                                </label>
+                            </div>
                         </div>
-                        <!-- Перекрыли пешеходный переход !-->
-                        <div class="custom-control control-block custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck2">                          
-                            <label class="custom-control-label" for="customCheck2">
-                                <span>Перекрыли удобный переход</span>
-                                <div class="img-wraper">
-                                    <img class="control__img" src="img/crosswalk/filter/fence.svg" alt="block_crosswalk">
-                                </div>
-                            </label>
-                        </div>
-                        <!-- Нужен светофор !-->
-                        <div class="custom-control control-block custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck3">                           
-                            <label class="custom-control-label" for="customCheck3">
-                                <span>Нужен светофор</span>
-                                <div class="img-wraper">
-                                    <img class="control__img" src="img/crosswalk/filter/svt.svg" alt="need_trafic">
-                                </div>
-                            </label>
-                        </div>
-                        <!-- Разное !-->
-                        <div class="custom-control control-block custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck4">
-                            <label class="custom-control-label" for="customCheck4">
-                                <span>Разное</span>
-                                <div class="img-wraper">
-                                    <img class="control__img" src="img/crosswalk/filter/other.svg" alt="other">
-                                </div>
-                            </label>
-                        </div>
-                      </div>
                     </div>
                 </div>
-        
+
                 <div class="col-lg-3 know-block">
                     <p class="btn-p">
-                      <button class="btn btn-primary btn-filter" type="button" data-toggle="collapse" data-target="#collapse-know" aria-expanded="false" aria-controls="collapse-know">
-                        База знаний
-                      </button>
+                        <button class="btn btn-primary btn-filter" type="button" data-toggle="collapse"
+                            data-target="#collapse-know" aria-expanded="false" aria-controls="collapse-know">
+                            База знаний
+                        </button>
                     </p>
                     <div class="collapse" id="collapse-know">
-                      <div class="move move-body">
-                        <a href="knowledge.html" class="a-knowledge">
-                            <div class="move-item">
-                                Зачем городу переходы?
-                            </div>
-                        </a>
-                        <a href="knowledge.html" class="a-knowledge">
-                            <div class="move-item item-bold">
-                                Куда и как пожаловаться на пешеходный переход?
-                            </div>
-                        </a>
-                        <a href="knowledge.html" class="a-knowledge">
-                            <div class="move-item">
-                                Почему заборы - это плохо?
-                            </div>
-                        </a>
-                        <a href="knowledge.html" class="a-knowledge">
-                            <div class="move-item item-light">
-                                База знаний
-                            </div>
-                        </a>    
-                      </div>
+                        <div class="move move-body">
+                            <a href="knowledge.html" class="a-knowledge">
+                                <div class="move-item">
+                                    Зачем городу переходы?
+                                </div>
+                            </a>
+                            <a href="knowledge.html" class="a-knowledge">
+                                <div class="move-item item-bold">
+                                    Куда и как пожаловаться на пешеходный переход?
+                                </div>
+                            </a>
+                            <a href="knowledge.html" class="a-knowledge">
+                                <div class="move-item">
+                                    Почему заборы - это плохо?
+                                </div>
+                            </a>
+                            <a href="knowledge.html" class="a-knowledge">
+                                <div class="move-item item-light">
+                                    База знаний
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-lg-3 help-block">
                     <p class="btn-p">
-                      <button class="btn btn-primary btn-filter" type="button" data-toggle="collapse" data-target="#collapse-help" aria-expanded="false" aria-controls="collapse-help">
-                        Помощь
-                      </button>
+                        <button class="btn btn-primary btn-filter" type="button" data-toggle="collapse"
+                            data-target="#collapse-help" aria-expanded="false" aria-controls="collapse-help">
+                            Помощь
+                        </button>
                     </p>
                     <div class="collapse" id="collapse-help">
-                      <div class="move move-body">
-                        <a href="help.html" class="a-help">
-                            <div class="move-item">
-                                Как работает сервис
-                            </div>
-                        </a>
-                        <a href="help.html" class="a-help">
-                            <div class="move-item">
-                                Помочь проекту
-                            </div> 
-                        </a>                         
-                      </div>
+                        <div class="move move-body">
+                            <a href="help.html" class="a-help">
+                                <div class="move-item">
+                                    Как работает сервис
+                                </div>
+                            </a>
+                            <a href="help.html" class="a-help">
+                                <div class="move-item">
+                                    Помочь проекту
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -177,10 +194,17 @@
 
     </main>
 
-<script src="js/scripts.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/scripts.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 
 </body>
+
 </html>
