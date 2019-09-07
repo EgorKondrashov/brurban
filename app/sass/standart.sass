@@ -3,13 +3,13 @@
 // Заголовки
 .h1-title
 	font-size: 32px
-	font-weight: bold
+	font-weight: 800
 	margin: 0
 	line-height: 2
 
 .h2-subtitle
 	font-size: 20px
-	font-weight: normal
+	font-weight: 500
 	margin: 0
 
 // Карточка сервисов 
@@ -62,6 +62,8 @@
 		box-shadow: $shadow-hover
 		cursor: pointer
 	transition: box-shadow .3s ease-in-out
+	&-crosswalk
+		padding-left: 0
 
 // карточка статей, проектов 
 .blank 
@@ -69,6 +71,8 @@
    height: 177px
    background: #F2F4F7
    border-radius: 4px
+   background-image: url(../img/articles/title.jpg)
+   background-size: cover
 
 // карточка раздела
 .division
@@ -78,5 +82,24 @@
    border-radius: 4px
 
 // Статьи
+.article
+	&-text
+		width: 720px
+		font-weight: 500
+		line-height: 30px
+		font-size: 19px
+	&-title
+		font-weight: 800
+		font-size: 22px
+		margin-top: 6%
+	&-img
+		width: 100%
+		height: auto
+	&-p
+		margin-top: 3%
+.img-p
+	color: $grey-b
+	font-size: 16px
+		
 
 
