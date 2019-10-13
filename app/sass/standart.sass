@@ -41,6 +41,8 @@
 	&-title
 		font-size: 24px
 		font-weight: 600
+		&_disable
+			color: #CBCFD4
 	&-subtitle
 		font-size: 14px
 		font-weight: normal
@@ -63,8 +65,13 @@
 		box-shadow: $shadow-hover
 		cursor: pointer
 	transition: box-shadow .3s ease-in-out
+	&_disable 
+		&:hover
+			box-shadow: none
+			cursor: auto
 	&-crosswalk
 		padding-left: 0
+
 
 // карточка статей, проектов 
 .blank 
